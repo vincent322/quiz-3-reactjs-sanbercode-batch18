@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
+.App {
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  background-image: url("../img/pattern.jpg");
+}
+
+.App-logo {
+  cursor: pointer;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.button {
+  margin: 1px;
+  height: auto;
+  display: inline-block;
+  background-color: rgb(216, 193, 193);
+  border-radius: 50px;
+  border: none;
+  padding: 3px 20px;
+  cursor: pointer;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: wh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.align-center {
+  vertical-align: bottom;
+}
+
+.name{
+  padding: 40px;
+  width: 500px;
+  height: 200px;
+  border: 5px solid black;
+  text-align: center;   
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sections {
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom: 15px;
+  padding: 30px 0;
+  background-color: #ffffff;
+  width: 70%;
+  min-height: 85vh;
+}
+
+.container {
+  padding: 8px 16px;
+}
+
+.title {
+  padding-top: 16px;
+}
+
+.articles-item {
+  border-bottom: 1px solid grey;
+}
+
+.articles-title {
+  padding-left: 4px;
+}
+
+.footer {
+  position: static;
+  bottom: 0;
+  margin-top: 16px;
+  padding: 4px;
+  background-color: #000;
+  color: #fff;
+}
+
+.row {
+  display: flex;
+  vertical-align: middle;
+  margin-bottom: 16px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 4px;
+}
+
+.form-control {
+  width: 100%;
+  height: 40px;
+  font-size: 14px !important;
+  padding-left: 4px;
+}
+
+textarea.form-control {
+  height: 100px;
+}
+
+.form-checkbox {
+  margin-left: 0;
+}
+
+.label {
+  font-weight: bold;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.label-control input {
+  margin-right: 8px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.dark {
+  background-color: #212121 !important;
+  color: #ffffff !important;
+}
+
+.dark a {
+  color: #ffffff !important;
+}
+
+.btn {
+  background-color: #f5f5f5;
+  border: none;
+  color: #212121;
+  padding: 8px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-primary {
+  background-color: pink !important;
+  color: black !important;
+}
+.btn-error {
+  background-color:pink !important;
+  color: black !important;
+}
+.btn-info {
+  background-color:pink !important;
+  color:black !important;
+}
+.btn-warning {
+  background-color: pink !important;
+  color: black !important;
+}
+.btn-success {
+  background-color:pink !important;
+  color:black !important;
+}
+.btn-dark {
+  background-color: pink !important;
+  color: black !important;
+}
+
+.btn-block {
+  width: 100% !important;
+}
+
+.navbar {
+  background-color: #f5f5f5;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 16px;
+}
+
+.navbar-brand {
+  height: 75px;
+}
+
+.navbar-left {
+  padding: 5px;
+  display: flex;
+  vertical-align: middle;
+}
+
+.navbar {
+  padding: 2px;
+  display: flex;
+  vertical-align: middle;
+}
+
+.navbar-left ul li {
+  float: left;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.navbar-left ul li a {
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar-right ul li {
+  float: left;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.navbar-right ul li a {
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.errors {
+  border: 1px solid red !important;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
